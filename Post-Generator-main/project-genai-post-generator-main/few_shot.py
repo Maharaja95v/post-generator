@@ -38,7 +38,9 @@ class FewShotPosts:
             return "Long"
 
     def get_tags(self):
-        return self.unique_tags
+        if self.unique_tags is not None:
+            return self.unique_tags.tolist()
+        return []
 
 
 if __name__ == "__main__":
