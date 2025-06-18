@@ -39,7 +39,7 @@ class FewShotPosts:
 
     def get_tags(self):
         if self.unique_tags is not None:
-            return self.unique_tags.tolist()
+            return self.unique_tags
         return []
 
 
