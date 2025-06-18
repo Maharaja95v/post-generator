@@ -82,4 +82,4 @@ def get_unified_tags(posts_with_metadata):
 
 
 if __name__ == "__main__":
-    process_posts("project-genai-post-generator-main/data/raw_posts.json", " project-genai-post-generator-main/data/processed_posts.json")
+    process_posts("data/raw_posts.json", "data/processed_posts.json")
